@@ -1,0 +1,140 @@
+\newcommand{\info}
+{
+
+     /\_ \  /\_ \    __        /\ \__/\ \__                    /\_ \    __
+   __\//\ \ \//\ \  /\_\    ___\ \ ,_\ \ ,_\   ___     ___ ___ \//\ \  /\_\    ___     ____    ___     ___
+ /'__`\\ \ \  \ \ \ \/\ \  / __`\ \ \/\ \ \/  / __`\ /' __` __`\ \ \ \ \/\ \ /' _ `\  /',__\  / __`\ /' _ `\
+/\  __/ \_\ \_ \_\ \_\ \ \/\ \L\ \ \ \_\ \ \_/\ \L\ \/\ \/\ \/\ \ \_\ \_\ \ \/\ \/\ \/\__, `\/\ \L\ \/\ \/\ \
+\ \____\/\____\/\____\\ \_\ \____/\ \__\\ \__\ \____/\ \_\ \_\ \_\/\____\\ \_\ \_\ \_\/\____/\ \____/\ \_\ \_\
+ \/____/\/____/\/____/ \/_/\/___/  \/__/ \/__/\/___/  \/_/\/_/\/_/\/____/ \/_/\/_/\/_/\/___/  \/___/  \/_/\/_/
+
+Elliot Tomlinson
+ email     tomlie1@mcmaster.ca
+ cell      (905) 537 - 6744
+ linkedin  https://linkedin.com/in/elliottomlinson
+ github    https://github.com/elliottomlinson
+ site      https://elliot.tk
+
+}
+
+%% --- custom stylesheet ------------------------------------------------------------------------------------------
+    \newenvironment{resume}{\normalsize\begin{tabular}{p{2.6924cm}p{14.1986cm}}}{\end{tabular}\vspace{0.15cm}}
+    \newenvironment{contactinfo}{\\\small\vspace{-0.1cm}\begin{tabular}{l|l}}{\end{tabular}\vspace{0.15cm}}
+    \newcommand{\codenote}{\color{gray}\vspace{0.2cm}\small\textsl}
+    \newcommand{\resumedate}{\small\color{gray}\textsl}
+    \newcommand{\resumename}{\centering\huge\textbf}
+    \newcommand{\links}{\vspace{0.35cm}\small}
+    \newcommand{\resumesection}{\\\large}
+    \newcommand{\desc}{\\&}
+
+%% --- initialization ---------------------------------------------------------------------------------------------
+    \documentclass{article}
+    \usepackage[left=1.8cm, right=1.8cm, bottom=1cm, top=1.8cm]{geometry}
+    \usepackage[utf8x]{inputenc}
+    \usepackage{fontawesome}
+    \usepackage{setspace}
+    \usepackage{hyperref}
+    \usepackage{xcolor}
+    \begin{document}
+    \begin{center}
+
+%% --- header -----------------------------------------------------------------------------------------------------
+\resumename{Elliot Tomlinson}
+\begin{contactinfo}
+    \href{mailto:tomlie1@mcmaster.ca}{tomlie1@mcmaster.ca}
+    & (905) 537 - 6744
+\end{contactinfo}
+
+
+%% --- summary ----------------------------------------------------------------------------------------------------
+\begin{resume}
+    \resumesection\textbf{Summary}
+      &\textbf{Engineering Physics III and Environmental Science}
+      \desc Creative and communicative natural leader aspiring to work on challenging open-ended
+      problems in teams of high functioning people aligned without ego. Background in full-stack
+      design projects and physics simulation. Lifelong passion for creativity, invention, and
+      sustainability.
+
+%% --- education --------------------------------------------------------------------------------------------------
+  \resumesection\textbf{Education}
+      &\textbf{McMaster University}
+      \resumedate{2016 -- Present, Class of 2022}
+      \desc B. Eng, Engineering Physics (Systems Design Focus), B. Sc. Environmental Science.
+
+%% --- projects ---------------------------------------------------------------------------------------------------
+  \resumesection\textbf{Projects}
+      &\textbf{Self-Stabilizing Quadcopter}
+      \resumedate{2021 -- Ongoing}
+      \desc Embedded C, CAD, and construction of a drone. Microcontroller PID and Bluetooth
+      control.
+
+      \\&\textbf{Laser Safety Goggles}
+      \resumedate{2020}
+      \desc Novel, low cost, ANSI-Compliant, completely broadband eye protection for lasers to
+      Class 4.
+
+      \\&\textbf{Handheld Plant Health Monitor}
+      \resumedate{2019 -- 2020}
+      \desc Design, project management, CAD, assembly, and processing in C for a photonics group.
+
+      \\&\textbf{Recycled Material Solar Panel Enhancement}
+      \resumedate{2019 -- 2020}
+      \desc Novel design project through a semiconductor lab. Systems modelling with RSoft/Zemax.
+
+      \\&\textbf{Hardware Ultrasonic Rangefinder}
+      \resumedate{2019}
+      \desc Design, build, and Multisim simulation of sub-cm resolution device with no software.
+
+      \\&\textbf{Program-Related Design Projects}
+      \resumedate{2017 -- Ongoing}
+      \desc Design, Java simulation, and launch of multi-stage rocket to 1 km, 3D printed gripping
+      hand with geartrain in Autodesk, Numerical Analysis with MATLAB, FEA with FlexPDE.
+
+      \\&\textbf{Repair Projects}
+      \resumedate{2017 -- Ongoing}
+      \desc Restoration and re-sale of miscellaneous computer hardware, design and construction of
+      I.O.T. systems, A/V equipment, and winning battlebot designs all from e-waste salvage.
+
+      \\&\textbf{Original Tabletop Game Design and Art}
+      \resumedate{2019 -- Ongoing}
+      \desc Ruby and Lua Scripting, Unity asset design, art for 300+ cards.
+
+%% --- employment -------------------------------------------------------------------------------------------------
+  \resumesection\textbf{Employment}
+      &\textbf{Town of Oakville, Self}
+      \resumedate{2010 -- Ongoing}
+      \desc Training lifeguards, teaching swimming, and providing supervision to private events.
+
+%% --- volunteering -----------------------------------------------------------------------------------------------
+  \resumesection\textbf{Volunteering}
+      &\textbf{McMaster University}
+      \resumedate{2017 -- Ongoing}
+      \desc Providing social and academic support as a tutor, mentor, and frosh-week leader.
+      Increased turnout from tens to over 200 as Executive/MC/Marketing Lead for a multi-thousand
+      dollar student engagement weekend. Student liaison and event planning as a faculty
+      representative.
+
+%% --- skills -----------------------------------------------------------------------------------------------------
+  \resumesection\textbf{Skills}
+      &\textbf{Personal}
+      \desc Effectuation, intrinsic motivation, trans-disciplinarity, creativity, collaboration,
+      leadership.
+
+      \\&\textbf{Technical}
+      \desc Full-stack design, prototyping, and testing. C, Microcontrollers, MATLAB, Ruby, Python,
+      Microsoft Office Suite, GNU/Linux, \LaTeX, Graphic Design, Autodesk 3D Modelling.
+
+\end{resume}
+
+%% --- footer -----------------------------------------------------------------------------------------------------
+\links
+
+    \href{https://linkedin.com/in/elliottomlinson}  {\faLinkedinSquare\space    elliottomlinson}
+    \href{https://github.com/elliottomlinson}       {\faGithub\space            elliottomlinson}
+    \href{https://elliot.tk}                        {\faLink\space              elliot.tk}
+
+\codenote{\href{https://elliot.tk/resume}{source code available at elliot.tk/resume}}
+
+\thispagestyle{empty}
+\end{center}
+\end{document}
